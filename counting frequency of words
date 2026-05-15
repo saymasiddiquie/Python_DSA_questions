@@ -1,0 +1,12 @@
+s = input()
+
+frequency = {}
+
+for ch in s:
+    if ch in frequency:
+        frequency[ch] += 1
+    else:
+        frequency[ch] = 1
+
+print("Total characters:", len(s))
+print("Character frequencies:", frequency)
