@@ -1,0 +1,9 @@
+def double_characters(string):
+	doubled_string=''
+	for char in string:
+		doubled_string+=char*2
+		
+	return doubled_string
+
+result = double_characters("test")
+print(result)
