@@ -1,0 +1,7 @@
+def calc_discount(full_price, discount_percentage):
+	discount_price=(discount_percentage/100)*full_price
+	discount_amount=full_price-discount_price
+	return discount_amount
+
+result = calc_discount(50, 20)
+print(result) # should be 40
